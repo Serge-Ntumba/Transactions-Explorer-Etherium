@@ -1,0 +1,218 @@
+@import "./styles/breakpoints.scss";
+
+.wrapper {
+     margin: 20px; 
+     color: #1AA6B7;
+     a {
+      color: inherit;
+      text-decoration: none;
+   }
+     @include media("<480px") {
+        margin: 10px; 
+      }
+     .item1 {
+         display: flex;
+         align-items: center;
+         gap: 20px;
+         opacity: 0.5;
+         @include media("<768px") {
+            font-size: x-small;
+         }
+         @include media("<480px") {
+            font-size: xx-small;
+         }
+         span {
+             width: 7px;
+             height: 7px;
+             background-color: #1AA6B7;
+             border-radius: 5px;
+         }
+     }
+     .item2 {
+         font-size: 28.5px;
+         margin-bottom: 10px;
+        @include media("<1200px") {
+            font-size: 26.7px;
+         }
+         @include media("<1150px") {
+            font-size: 26px;
+         }
+         @include media("<1120px") {
+            font-size: 25px;
+         }
+         @include media("<1110px") {
+            font-size: 24px;
+         }
+         @include media("<1050px") {
+            font-size: 23px;
+         }
+         @include media("<1000px") {
+            font-size: 21px;
+         }
+         @include media("<950px") {
+            font-size: 20px;
+         }
+         @include media("<900px") {
+            font-size: 19px;
+         }
+         @include media("<850px") {
+            font-size: 18px;
+         }
+         @include media("<800px") {
+            font-size: 17px;
+         }
+         @include media("<750px") {
+            font-size: 16px;
+         }
+         @include media("<700px") {
+            font-size: 15px;
+         }
+         @include media("<650px") {
+            font-size: 13px;
+         }
+         @include media("<600px") {
+            font-size: 12px;
+         }
+         @include media("<550px") {
+            font-size: 11px;
+         }
+         @include media("<500px") {
+            font-size: 9px;
+         }
+         @include media("<420px") {
+            font-size: 8px;
+         }
+         @include media("<400px") {
+            font-size: 7px;
+         }
+         @include media("<350px") {
+            font-size: 6px;
+         }
+     }
+     .item3 {
+         display: flex;
+         justify-content: space-between;
+         @include media("<768px") {
+            gap: 20px;
+          }
+          @include media("<480px") {
+            gap: normal;
+          }
+         @include media("<480px") {
+           display: flex;
+           flex-direction: column;
+         }
+         .from-container {
+             .from-title {
+                opacity: 0.5;
+                @include media("<768px") {
+                   font-size: x-small;
+                }
+                @include media("<480px") {
+                   font-size: xx-small;
+                }
+             }
+             .from-content {
+                 @include media("<768px") {
+                    font-size: 15px;
+                 }
+                 @include media("<700px") {
+                    font-size: 13px;
+                 }
+                 @include media("<600px") {
+                    font-size: 11px;
+                 }
+                 @include media("<480px") {
+                    font-size: 8px;
+                 }
+             }
+         }
+         .to-container {
+            .to-title {
+                opacity: 0.5;
+                @include media("<768px") {
+                   font-size: x-small;
+                }
+                @include media("<480px") {
+                   font-size: xx-small;
+                }
+            }
+            .to-content {
+                @include media("<768px") {
+                    font-size: 15px;
+                 }
+                 @include media("<700px") {
+                    font-size: 13px;
+                 }
+                 @include media("<600px") {
+                    font-size: 11px;
+                 }
+                 @include media("<480px") {
+                    font-size: 8px;
+                 }
+            }
+        }
+        .balance {
+            flex-basis: 50%;
+            align-self: center;
+            text-align: right;
+            font-size: 28px;
+            @include media("<1200px") {
+                font-size: 26.7px;
+             }
+             @include media("<1150px") {
+                font-size: 26px;
+             }
+             @include media("<1120px") {
+                font-size: 25px;
+             }
+             @include media("<1110px") {
+                font-size: 24px;
+             }
+             @include media("<1050px") {
+                font-size: 23px;
+             }
+             @include media("<1000px") {
+                font-size: 21px;
+             }
+             @include media("<950px") {
+                font-size: 20px;
+             }
+             @include media("<900px") {
+                font-size: 19px;
+             }
+             @include media("<850px") {
+                font-size: 18px;
+             }
+             @include media("<800px") {
+                font-size: 17px;
+             }
+             @include media("<750px") {
+                font-size: 16px;
+             }
+             @include media("<700px") {
+                font-size: 15px;
+             }
+             @include media("<650px") {
+                font-size: 13px;
+             }
+             @include media("<600px") {
+                font-size: 12px;
+             }
+             @include media("<550px") {
+                font-size: 11px;
+             }
+             @include media("<480px") {
+                font-size: 9px;
+                align-self: flex-start;
+                margin-top: 10px;
+             }
+             @include media("<400px") {
+                font-size: 8px;
+             }
+             @include media("<350px") {
+                font-size: 7px;
+             }
+        }
+     }
+}

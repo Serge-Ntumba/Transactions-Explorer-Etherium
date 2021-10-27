@@ -1,0 +1,22 @@
+.wrapper-msg {
+    align-self: flex-start;
+    color:#FF414D;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+.icon-msg {
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF414D;
+}
+
+.msg {
+    color: #ef9a9a;
+   
+}

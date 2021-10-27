@@ -1,0 +1,22 @@
+nav {
+    .pagination {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            font-size: 20px;
+            padding: 8px;
+            margin: 5px;
+            border-radius: 5px;
+            color:  #1AA6B7;
+            list-style-type: none;
+            background: rgba(217, 236, 242, 0.5);
+            a {
+                text-decoration: none;
+                color:  #1AA6B7;
+                :visited {
+                    color:  #1AA6B7;
+                  }
+            }
+        }
+    }
+}

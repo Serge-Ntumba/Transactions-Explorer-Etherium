@@ -1,0 +1,30 @@
+@import "../styles/breakpoints.scss";
+
+button {
+    border: none;
+    border-radius: 10px;
+    width: 15%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    @include media("<668px") {
+     align-self: center;
+      width: 40%;
+      font-size: 16px;
+     }
+    @include media("<400px") {
+            width: 100%;
+           }
+}
+
+.clear {
+    background-color: #F6F6F6;
+    color: #1AA6B7;
+    border: 1px solid  #1AA6B7;
+}
+
+.search {
+    color: #F6F6F6;
+    background-color: #1AA6B7;
+}
