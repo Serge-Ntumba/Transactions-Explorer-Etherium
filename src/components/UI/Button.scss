@@ -8,6 +8,9 @@ button {
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
+    &:hover {
+        transform: scale(1.05);
+    }
     @include media("<668px") {
      align-self: center;
       width: 40%;
