@@ -1,4 +1,5 @@
-@import "./styles/breakpoints.scss";
+@import "./sass/breakpoints";
+@import "./sass/variables";
 
 form {
     width: 100%;
@@ -12,27 +13,30 @@ form {
     input {
         flex-grow: 1;
         border-radius: 10px;
-        border: 1px solid #1AA6B7;
+        border: 1px solid $primaryColor;
         height: 50px;
-        color: #1AA6B7;
+        color: $primaryColor;
     }
     input:focus {
         outline: none;
     }
     input::placeholder {
-        color: #1AA6B7;
+        color: $primaryColor;
         opacity: 0.6;
         font-size: 30px;
-        font-weight: 700;
+        font-weight: $fontWeight;
         @include media("<668px") {
             font-size: 22px;
             }
       }
     input[type=text] {
-        color:  #1AA6B7;
+        color: $primaryColor;
         font-size: 30px;
-        font-weight: 700;
+        font-weight:$fontWeight;
         padding-left: 15px;
+        @include media("<668px") {
+            font-size: 22px;
+            }
     }
 }
 

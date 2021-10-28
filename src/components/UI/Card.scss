@@ -1,6 +1,8 @@
+@import "../sass/variables";
+
 .card {
-    background: rgba(217, 236, 242, 0.5);
-    border: 1px solid #1AA6B7;
+    background: $cardBg;
+    border: 1px solid $primaryColor;
     border-radius: 10px;
     width: 100%;
     min-height: 12vh;

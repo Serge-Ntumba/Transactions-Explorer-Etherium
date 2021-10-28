@@ -1,3 +1,5 @@
+@import "./sass/variables";
+
 nav {
     .pagination {
         display: flex;
@@ -7,14 +9,14 @@ nav {
             padding: 8px;
             margin: 5px;
             border-radius: 5px;
-            color:  #1AA6B7;
+            color:  $primaryColor;
             list-style-type: none;
-            background: rgba(217, 236, 242, 0.5);
+            background: $cardBg;
             a {
                 text-decoration: none;
-                color:  #1AA6B7;
-                :visited {
-                    color:  #1AA6B7;
+                color:  $primaryColor;
+                &:visited {
+                    color:  inherit;
                   }
             }
         }
